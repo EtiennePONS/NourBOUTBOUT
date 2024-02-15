@@ -18,7 +18,7 @@ body {
   align-items: center;
   margin: 10px;
   flex: 1 0 calc(33.333% - 20px);
-  background: radial-gradient(#fff700, #40ff00);
+  background: radial-gradient(#ffc800, #ffc800);
   border-radius: 10px;
 }
 
