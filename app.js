@@ -1,47 +1,68 @@
-const buttonClap = document.getElementById("padClap");
-const buttonCrash = document.getElementById("padCrash");
-const buttonOpenHH = document.getElementById("padOpenHH");
-const buttonKick = document.getElementById("padKick");
-const buttonSnare = document.getElementById("padSnare");
-const buttonCloseHH = document.getElementById("padCloseHH");
+const button1 = document.getElementById("1");
+const button2 = document.getElementById("2");
+const button3 = document.getElementById("3");
+const button4 = document.getElementById("4");
+const button5 = document.getElementById("5");
+const button6 = document.getElementById("6");
+const button7 = document.getElementById("7");
+const button8 = document.getElementById("8");
+const button9 = document.getElementById("9");
 
-const audioClap = new Audio("Burp.mp3");
-const audioCrash = new Audio("CartoonFall.mp3");
-const audioOpenHH = new Audio("CartoonSquirrely.mp3");
-const audioKick = new Audio("MediumLength.mp3");
-const audioSnare = new Audio("RoosterCrow.mp3");
-const audioCloseHH = new Audio("SheepLamb.mp3");
+const audio1 = new Audio("pipe.mp3");
+const audio2 = new Audio("CartoonFall.mp3");
+const audio3 = new Audio("CartoonSquirrely.mp3");
+const audio4 = new Audio("MediumLength.mp3");
+const audio5 = new Audio("RoosterCrow.mp3");
+const audio6 = new Audio("SheepLamb.mp3");
+const audio7 = new Audio("funnyspring.mp3");
+const audio8 = new Audio("cutecharacter.mp3");
+const audio9 = new Audio("funny.mp3");
 
-buttonClap.addEventListener("click", playClap);
-buttonCrash.addEventListener("click", playCrash);
-buttonOpenHH.addEventListener("click", playOpenHH);
-buttonKick.addEventListener("click", playKick);
-buttonSnare.addEventListener("click", playSnare);
-buttonCloseHH.addEventListener("click", playCloseHH);
+button1.addEventListener("click", play1);
+button2.addEventListener("click", play2);
+button3.addEventListener("click", play3);
+button4.addEventListener("click", play4);
+button5.addEventListener("click", play5);
+button6.addEventListener("click", play6);
+button7.addEventListener("click", play7);
+button8.addEventListener("click", play8);
+button9.addEventListener("click", play9);
 
-function playClap(event) {
+function play1(event) {
   event.preventDefault();
-  audioClap.play();
+  audio1.play();
 }
-function playCrash(event) {
+function play2(event) {
   event.preventDefault();
-  audioCrash.play();
+  audio2.play();
 }
-function playOpenHH(event) {
+function play3(event) {
   event.preventDefault();
-  audioOpenHH.play();
+  audio3.play();
 }
-function playKick(event) {
+function play4(event) {
   event.preventDefault();
-  audioKick.play();
+  audio4.play();
 }
-function playSnare(event) {
+function play5(event) {
   event.preventDefault();
-  audioSnare.play();
+  audio5.play();
 }
-function playCloseHH(event) {
+function play6(event) {
   event.preventDefault();
-  audioCloseHH.play();
+  audio6.play();
+}
+function play7(event) {
+  event.preventDefault();
+  audio7.play();
+}
+function play8(event) {
+  event.preventDefault();
+  audio8.play();
+}
+function play9(event) {
+  event.preventDefault();
+  audio9.play();
 }
 
 function setViewportHeight() {
